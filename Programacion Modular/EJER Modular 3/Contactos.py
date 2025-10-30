@@ -11,7 +11,7 @@ def agregar_contacto(contactos, nombre, telefono, correo):
         "correo": correo
     }
     contactos.append(contacto)
-    return f"✅ Contacto '{nombre}' agregado correctamente."
+    return f"Contacto '{nombre}' agregado correctamente."
 
 def buscar_contacto(contactos, nombre):
     for contacto in contactos:
